@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     /* font-family: Arial, Helvetica, sans-serif; */
-    line-height: 1.5;
+    line-height: 1.2;
     font-style: normal;
     background-color: #ffffff;
     font-weight: 400;
@@ -103,6 +103,19 @@ body {
 
 .hero .hero-texts {
     position: absolute;
-    top: 200px;
+    top: 170px;
     left: 130px;
+    max-width: 400px;
+}
+
+.hero .hero-texts #highlight {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+
+.hero .hero-texts #tagline  {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 0 0 1.5rem;
 }
