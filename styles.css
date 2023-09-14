@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     line-height: 1.5;
     font-style: normal;
     background-color: #ffffff;
@@ -64,3 +65,16 @@ body {
     border-right: solid 2px #f1f1f1;
     border-left: solid 1px #f1f1f1;
 }
+
+#navbar-container .navbar-content #shopping-cart a path:hover{
+    color: #008955;
+}
+
+#navbar-container .navbar-content #hover a{
+    color: #008955;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
