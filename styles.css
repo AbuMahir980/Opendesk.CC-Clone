@@ -25,7 +25,9 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
-
+#navbar-container .navbar-content #logo {
+    padding: 18px 16px 15px 37px;
+}
 #navbar-container .navbar-content ul {
     display: flex;
     justify-content: space-between;
