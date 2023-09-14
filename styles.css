@@ -132,3 +132,41 @@ body {
     color: #ffffff;
     font-size: 18px;
 }
+
+/* Item-display section styling */
+.item-display {
+    background-color: #f1f1f1;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.item-display .item-display-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-display .item-display-row .items {
+    width: 400px;
+    height: 350px;
+    margin: 20px 20px;
+    border: solid 1px #f8f8f9;
+}
+
+.item-display .item-display-row .items a {
+    text-decoration: none;
+    color: #000;
+}
+.item-display .item-display-row .items img {
+    display: block;
+    width: 100%;
+}
+
+.item-display .item-display-row .items a > .items-title {
+    font-weight: 400;
+    margin: 11px 0px 21px;
+}
+.item-display .item-display-row .items a >.items-tagline {
+    margin: 15px 0px;
+}
