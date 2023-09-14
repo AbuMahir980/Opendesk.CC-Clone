@@ -117,5 +117,15 @@ body {
 .hero .hero-texts #tagline  {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    margin: 0 0 1.5rem;
+    margin: 35px 0px;
+}
+
+.hero .hero-texts button {
+    background-color: #008955;
+    border: none;
+    width: 180px;
+    height: 46px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
 }
