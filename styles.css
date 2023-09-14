@@ -40,4 +40,5 @@ body {
 #navbar-container .navbar-content ul a {
     text-decoration: none;
     color: #777778;
+    font-size: 14px;
 }
