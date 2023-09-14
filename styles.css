@@ -78,3 +78,10 @@ body {
     text-decoration: none;
 }
 
+/* main section styling */
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0px 15px;
+}
