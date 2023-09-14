@@ -54,3 +54,13 @@ body {
 #navbar-container .navbar-content ul a:hover {
     color: #008955
 }
+
+#navbar-container .navbar-content #shopping-cart{
+    padding: 0px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 2px #f1f1f1;
+    border-left: solid 1px #f1f1f1;
+}
