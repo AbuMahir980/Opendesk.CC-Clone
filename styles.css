@@ -27,18 +27,26 @@ body {
 }
 #navbar-container .navbar-content #logo {
     padding: 18px 16px 15px 37px;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 40px 0px 0px;
 }
+#navbar-container .navbar-content #logo img {
+    height: 30px;
+}
+
 #navbar-container .navbar-content ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
     list-style-type: none;
-    padding: 15px 22px 20px;
+    padding: 15px 30px 18px;
 }
 #navbar-container .navbar-content ul a {
     text-decoration: none;
     color: #777778;
-    font-size: 14px;
+    font-size: 15px;
+}
+
+#navbar-container .navbar-content ul a:hover {
+    color: #008955
 }
