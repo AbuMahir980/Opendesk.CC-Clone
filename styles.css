@@ -207,13 +207,20 @@ body {
 /* Purchase process section styling */
 .process {
     background-color: #f1f1f1;
-        color: #000000;
-        text-align: center;
-        padding: 50px 0px;
+    color: #000000;
+    text-align: center;
+    padding: 50px 20px;
 }
 
 .process .process-headline {
     font-size: 1.2rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.process .process-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px;
 }
