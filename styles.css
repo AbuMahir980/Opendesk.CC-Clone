@@ -249,3 +249,13 @@ body {
 .process .process-steps .process-step-items .padd {
     padding: 0px 20px;
 }
+
+.process button {
+    background-color: #008955;
+    border: none;
+    width: 180px;
+    height: 46px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
