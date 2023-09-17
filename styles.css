@@ -271,7 +271,18 @@ body {
 
 .partners-logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 40px 0px;
+    padding: 60px 0px;
+    gap: 130px;
+}
+
+.partners-logos .logos {
+    height: 100%;
+    /* width: 50%; */
+    margin: 20px 20px;
+}
+.partners-logos .sizing {
+    display: block;
+    height: 90px;
 }
