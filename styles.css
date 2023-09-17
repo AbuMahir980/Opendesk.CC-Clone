@@ -266,6 +266,12 @@ body {
 }
 
 .tags:hover{
-    text-decoration: underline;
     color: #008955;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px;
 }
