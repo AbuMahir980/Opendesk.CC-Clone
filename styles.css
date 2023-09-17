@@ -259,3 +259,13 @@ body {
     color: #ffffff;
     font-size: 18px;
 }
+
+.tags   {
+    text-decoration: none;
+    color: #008955;
+}
+
+.tags:hover{
+    text-decoration: underline;
+    color: #008955;
+}
