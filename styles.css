@@ -447,5 +447,9 @@ footer {
 }
 
 .footer-bottom .feedback .feedback-statement {
-    color
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    margin-right: 70px;
 }
