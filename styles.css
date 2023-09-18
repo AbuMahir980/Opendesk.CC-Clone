@@ -394,3 +394,11 @@ footer {
 .footer-top .footer-logo img {
     height: 25%;
 }
+
+.footer-top .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 40px; 
+}
