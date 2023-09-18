@@ -362,3 +362,12 @@ body {
 }
 
 /* logo2 stylings */
+#second-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+#second-logo .sizing {
+    height: 80px;
+}
