@@ -399,7 +399,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     /* gap: 30px; */
     margin-bottom: 50px;
 }
@@ -410,4 +410,14 @@ footer {
 #about, #contact, #terms{
     border-right: 2px solid #f1f1f1;
     color: #f1f1f1;
+}
+
+.footer-top .links .link-items a {
+    color: #f1f1f1;
+    text-decoration: underline #a7a7a7;
+    text-underline-offset: 4px;
+}
+
+.footer-top .links .link-items a:hover {
+    text-decoration: underline #f1f1f1;
 }
