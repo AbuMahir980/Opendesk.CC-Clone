@@ -378,7 +378,7 @@ hr#rule {
 
 footer {
     background-color: #69696a;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .footer-top {
@@ -431,5 +431,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 30px 30px 20px 50px;
+    padding: 0px 70px 80px 80px;
+    gap: 60px;
+}
+
+.footer-bottom .newsletter #newsletter {
+    padding: 1.2rem 1.6rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 500px;
+    border-radius: 5px;
+    border-color: #ccf0e2;
+    border-width: thin;
 }
