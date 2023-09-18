@@ -384,6 +384,13 @@ footer {
     text-align: center;
     /* margin: 50px 0px 20px 0px; */
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 30px 0px ;
 }
 
+.footer-top .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-top .footer-logo img {
+    height: 25%;
+}
