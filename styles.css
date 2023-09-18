@@ -305,7 +305,7 @@ body {
 
 .purchase .purchase-texts {
     position: absolute;
-    top: 200px;
+    top: 120px;
     left: 130px;
     max-width: 400px
 }
@@ -320,5 +320,6 @@ body {
     font-size: 1.2rem;
     line-height: 1.7rem;
     margin: 35px 0px;
-    text-align:start;
+    padding: 0px 3px 0px 0px;
+    text-align: left;
 }
