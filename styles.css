@@ -431,7 +431,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 70px 80px 80px;
+    padding: 0px 70px 80px 90px;
     gap: 60px;
 }
 
@@ -443,4 +443,9 @@ footer {
     border-radius: 5px;
     border-color: #ccf0e2;
     border-width: thin;
+    color: #777778;
+}
+
+.footer-bottom .feedback .feedback-statement {
+    color
 }
