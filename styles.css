@@ -379,3 +379,11 @@ hr#rule {
 footer {
     background-color: #69696a;
 }
+
+.footer-top {
+    text-align: center;
+    /* margin: 50px 0px 20px 0px; */
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
