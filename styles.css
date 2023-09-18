@@ -72,12 +72,45 @@ body {
 
 #navbar-container .navbar-content #hover a{
     color: #008955;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 15px;
     padding: 0px 30px;
     text-decoration: none;
 }
+#hover {
+    position: relative;
+    display: inline-block;
+}
+#hover .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    /* color: #008955; */
+    width: 20rem;
+    height: auto;
+    top: 100%;
+    right: -4px;
+    margin-top: 28px;
+    margin-right: 5px;
+    padding: 1.1rem;
+    z-index: 1;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    overflow: auto;
+}
 
+#hover .dropdown-content a {
+    color: #008955;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#hover .dropdown-content a:hover {background-color: #ddd;}
+#hover:hover .dropdown-content {display: block;}
 /* main section styling */
 .container{
     width: 1300px;
