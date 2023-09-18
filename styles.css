@@ -250,6 +250,7 @@ body {
     padding: 0px 20px;
 }
 
+/* Process section styling */
 .process button {
     background-color: #008955;
     border: none;
@@ -269,6 +270,7 @@ body {
     color: #008955;
 }
 
+/* logos section styling */
 .partners-logos {
     display: flex;
     justify-content: center;
@@ -287,6 +289,7 @@ body {
     height: 90px;
 }
 
+/* Purchase section section */
 .purchase {
     position: relative;
     color: #ffffff;
@@ -336,6 +339,7 @@ body {
     padding: 15px 5px;
 }
 
+/* Quote section styling */
 .quote  {
     text-align: center;
     padding: 50px 0px;
@@ -356,3 +360,5 @@ body {
     font-style: italic;
     line-height: 1.9rem;
 }
+
+/* logo2 stylings */
