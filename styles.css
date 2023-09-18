@@ -400,10 +400,14 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    gap: 30px;
+    /* gap: 30px; */
     margin-bottom: 50px;
 }
 
-.footer-top .links .link-items {
+.footer-top .links .link-items  {
+    padding: 0px 20px;
+}
+#about, #contact, #terms{
+    border-right: 2px solid #f1f1f1;
     color: #f1f1f1;
 }
